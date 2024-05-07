@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Радужный Курсор</title>
+<style>
+    body {
+        height: 100vh;
+        margin: 0;
+        overflow: hidden;
+        position: relative;
+    }
+    .dot {
+        position: absolute;
+        pointer-events: none;
+        border-radius: 50%;
+        opacity: 0;
+        width: 10px;
+        height: 10px;
+    }
+    @keyframes fade {
+        0% {
+            opacity: 1;
+            transform: scale(1);
+        }
+        100% {
+            opacity: 0;
+            transform: scale(2);
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<script src="index.js"></script>
+
+
+</body>
+</html>
